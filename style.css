@@ -1,7 +1,7 @@
-*
-{
-    opacity: 0.9;
+* {
+  opacity: 0.9;
 }
+
 body {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
@@ -41,8 +41,8 @@ header nav span {
 }
 
 header nav span a {
-    color: seashell;
-    text-decoration: underline;
+  color: seashell;
+  text-decoration: underline;
 }
 
 /* Main */
@@ -53,7 +53,6 @@ header nav span a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .main .container {
@@ -67,7 +66,10 @@ header nav span a {
 .main .first {
   height: 700px;
   width: 100%;
-  margin: 69px 50px;
+  margin-top: 69px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url(./resources/img-mission-background.jpg);
 }
 
@@ -84,9 +86,9 @@ header nav span a {
 }
 
 .main .second .menu {
-display: block;
-margin: 0 5px;
-padding: 0;
+  display: block;
+  margin: 0 5px;
+  padding: 0;
 }
 
 .menu img {
@@ -95,17 +97,15 @@ padding: 0;
   width: 300px;
   padding: 10px;
 }
+
 .main .block-location {
   background-image: url(./resources/img-locations-background.jpg);
   height: 500px;
   margin-top: 50px;
   margin-bottom: 0;
-    width: 100%;
+  width: 100%;
 }
-.main .third {
-  margin: auto;
 
-}
 .third .locations {
   display: flex;
   height: 300px;
@@ -114,28 +114,38 @@ padding: 0;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-      opacity: 1;
+  opacity: 1;
 }
+
+.third .locations p, h3 {
+  opacity: 1;
+}
+
 .main .footer {
   display: block;
   height: 200px;
   padding: 0 auto;
 }
+
 footer {
   margin-left: 20px;
   text-align: left;
 }
-/* h5 {
-  display: block;
-} */
+
 h2, h4 {
   margin: 0;
   padding: 10px;
   font-weight: bold;
 }
+
 .locations, .text, header {
   background-color: black;
 }
+
 .block-location h2 {
   margin-top: 40px;
+}
+
+#tea {
+  padding-top: 2.5em;
 }
